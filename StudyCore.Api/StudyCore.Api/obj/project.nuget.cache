@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "poYXm6hwYNdRUGNZWHMjsj9WzBrYAOgCtbhkVzTiTQC9j1I4icFB7BJeKaWk+aKP8DN/3exGQNgJpxuU2MybIQ==",
+  "success": true,
+  "projectFilePath": "F:\\StudyCore\\StudyCore.Api\\StudyCore.Api\\StudyCore.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\19732\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512"
+  ],
+  "logs": []
+}

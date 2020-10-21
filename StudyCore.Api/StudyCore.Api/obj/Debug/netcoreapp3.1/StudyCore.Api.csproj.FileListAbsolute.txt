@@ -1,0 +1,9 @@
+F:\StudyCore\StudyCore.Api\StudyCore.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\StudyCore\StudyCore.Api\StudyCore.Api\bin\Debug\netcoreapp3.1\appsettings.json
+F:\StudyCore\StudyCore.Api\StudyCore.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+F:\StudyCore\StudyCore.Api\StudyCore.Api\obj\Debug\netcoreapp3.1\StudyCore.Api.csprojAssemblyReference.cache
+F:\StudyCore\StudyCore.Api\StudyCore.Api\obj\Debug\netcoreapp3.1\StudyCore.Api.AssemblyInfoInputs.cache
+F:\StudyCore\StudyCore.Api\StudyCore.Api\obj\Debug\netcoreapp3.1\StudyCore.Api.AssemblyInfo.cs
+F:\StudyCore\StudyCore.Api\StudyCore.Api\obj\Debug\netcoreapp3.1\StudyCore.Api.RazorTargetAssemblyInfo.cache
+F:\StudyCore\StudyCore.Api\StudyCore.Api\obj\Debug\netcoreapp3.1\staticwebassets\StudyCore.Api.StaticWebAssets.Manifest.cache
+F:\StudyCore\StudyCore.Api\StudyCore.Api\obj\Debug\netcoreapp3.1\staticwebassets\StudyCore.Api.StaticWebAssets.xml
