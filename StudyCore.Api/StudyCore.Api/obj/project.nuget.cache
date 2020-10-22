@@ -1,9 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ZeQhEIxyLw/rKw+rsLtyZ8/LWOJjxa7zErNkJ8h9LzDnE5WEhY1YRStss2QW2JK+V4dH6dJPJx/20G+gOIys5Q==",
+=======
+  "dgSpecHash": "2HAiiB2XunFoYHpsgJOHlP3GSEHGxRQiJ1dcKtgWXodAslwcJsPBYbxQ+SWKQIX6BXVqvv9dybOCFaoF0sfwRQ==",
+>>>>>>> f1c3482b6030b29ecd4c011fbb4b8c92909e1772
   "success": true,
-  "projectFilePath": "F:\\StudyCore\\StudyCore.Api\\StudyCore.Api\\StudyCore.Api.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\xu\\StudyCore\\StudyCore.Api\\StudyCore.Api\\StudyCore.Api.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
     "C:\\Users\\19732\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.9\\microsoft.aspnetcore.jsonpatch.3.1.9.nupkg.sha512",
     "C:\\Users\\19732\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.9\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.9.nupkg.sha512",
     "C:\\Users\\19732\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
@@ -104,6 +109,9 @@
     "C:\\Users\\19732\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\19732\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\19732\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+=======
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512"
+>>>>>>> f1c3482b6030b29ecd4c011fbb4b8c92909e1772
   ],
   "logs": []
 }
