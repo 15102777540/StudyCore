@@ -1,0 +1,15 @@
+F:\StudyCore\StudyCore.Repository\bin\Debug\netcoreapp3.1\StudyCore.Repository.deps.json
+F:\StudyCore\StudyCore.Repository\bin\Debug\netcoreapp3.1\StudyCore.Repository.dll
+F:\StudyCore\StudyCore.Repository\bin\Debug\netcoreapp3.1\StudyCore.Repository.pdb
+F:\StudyCore\StudyCore.Repository\obj\Debug\netcoreapp3.1\StudyCore.Repository.AssemblyInfoInputs.cache
+F:\StudyCore\StudyCore.Repository\obj\Debug\netcoreapp3.1\StudyCore.Repository.AssemblyInfo.cs
+F:\StudyCore\StudyCore.Repository\obj\Debug\netcoreapp3.1\StudyCore.Repository.dll
+F:\StudyCore\StudyCore.Repository\obj\Debug\netcoreapp3.1\StudyCore.Repository.pdb
+F:\StudyCore\StudyCore.Repository\bin\Debug\netcoreapp3.1\StudyCore.Model.dll
+F:\StudyCore\StudyCore.Repository\bin\Debug\netcoreapp3.1\StudyCore.Model.pdb
+F:\StudyCore\StudyCore.Repository\obj\Debug\netcoreapp3.1\StudyCore.Repository.csprojAssemblyReference.cache
+F:\StudyCore\StudyCore.Repository\obj\Debug\netcoreapp3.1\StudyCore.Repository.csproj.CopyComplete
+F:\StudyCore\StudyCore.Repository\bin\Debug\netcoreapp3.1\StudyCore.Repository.runtimeconfig.json
+F:\StudyCore\StudyCore.Repository\bin\Debug\netcoreapp3.1\StudyCore.Repository.runtimeconfig.dev.json
+F:\StudyCore\StudyCore.Repository\obj\Debug\netcoreapp3.1\StudyCore.Repository.csproj.CoreCompileInputs.cache
+F:\StudyCore\StudyCore.Repository\obj\Debug\netcoreapp3.1\StudyCore.Repository.genruntimeconfig.cache
