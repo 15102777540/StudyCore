@@ -1,9 +1,0 @@
-F:\StudyCore\StudyCore.IServices\bin\Debug\netcoreapp3.1\StudyCore.IServices.deps.json
-F:\StudyCore\StudyCore.IServices\bin\Debug\netcoreapp3.1\StudyCore.IServices.dll
-F:\StudyCore\StudyCore.IServices\bin\Debug\netcoreapp3.1\StudyCore.IServices.pdb
-F:\StudyCore\StudyCore.IServices\obj\Debug\netcoreapp3.1\StudyCore.IServices.csproj.CoreCompileInputs.cache
-F:\StudyCore\StudyCore.IServices\obj\Debug\netcoreapp3.1\StudyCore.IServices.AssemblyInfoInputs.cache
-F:\StudyCore\StudyCore.IServices\obj\Debug\netcoreapp3.1\StudyCore.IServices.AssemblyInfo.cs
-F:\StudyCore\StudyCore.IServices\obj\Debug\netcoreapp3.1\StudyCore.IServices.dll
-F:\StudyCore\StudyCore.IServices\obj\Debug\netcoreapp3.1\StudyCore.IServices.pdb
-F:\StudyCore\StudyCore.IServices\obj\Debug\netcoreapp3.1\StudyCore.IServices.csprojAssemblyReference.cache
