@@ -13,3 +13,4 @@ F:\StudyCore\StudyCore.Repository\bin\Debug\netcoreapp3.1\StudyCore.Repository.r
 F:\StudyCore\StudyCore.Repository\bin\Debug\netcoreapp3.1\StudyCore.Repository.runtimeconfig.dev.json
 F:\StudyCore\StudyCore.Repository\obj\Debug\netcoreapp3.1\StudyCore.Repository.csproj.CoreCompileInputs.cache
 F:\StudyCore\StudyCore.Repository\obj\Debug\netcoreapp3.1\StudyCore.Repository.genruntimeconfig.cache
+F:\StudyCore\StudyCore.Repository\bin\Debug\netcoreapp3.1\StudyCore.Model.xml

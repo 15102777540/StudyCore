@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -6,23 +6,38 @@
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\StudyCore.Api\StudyCore.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <None Remove="Dockerfile" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="3.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\StudyCore.Repository\StudyCore.Repository.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 
 </Project>

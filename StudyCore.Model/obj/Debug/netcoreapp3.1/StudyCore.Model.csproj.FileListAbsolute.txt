@@ -1,4 +1,3 @@
-F:\StudyCore\StudyCore.Model\obj\Debug\netcoreapp3.1\StudyCore.Model.csproj.CoreCompileInputs.cache
 F:\StudyCore\StudyCore.Model\obj\Debug\netcoreapp3.1\StudyCore.Model.AssemblyInfoInputs.cache
 F:\StudyCore\StudyCore.Model\obj\Debug\netcoreapp3.1\StudyCore.Model.AssemblyInfo.cs
 F:\StudyCore\StudyCore.Model\bin\Debug\netcoreapp3.1\StudyCore.Model.deps.json
@@ -6,3 +5,5 @@ F:\StudyCore\StudyCore.Model\bin\Debug\netcoreapp3.1\StudyCore.Model.dll
 F:\StudyCore\StudyCore.Model\bin\Debug\netcoreapp3.1\StudyCore.Model.pdb
 F:\StudyCore\StudyCore.Model\obj\Debug\netcoreapp3.1\StudyCore.Model.dll
 F:\StudyCore\StudyCore.Model\obj\Debug\netcoreapp3.1\StudyCore.Model.pdb
+F:\StudyCore\StudyCore.Model\obj\Debug\netcoreapp3.1\StudyCore.Model.csproj.CoreCompileInputs.cache
+F:\StudyCore\StudyCore.Model\bin\Debug\netcoreapp3.1\StudyCore.Model.xml

@@ -6,3 +6,4 @@ F:\StudyCore\StudyCore.Services\obj\Debug\netcoreapp3.1\StudyCore.Services.Assem
 F:\StudyCore\StudyCore.Services\obj\Debug\netcoreapp3.1\StudyCore.Services.AssemblyInfo.cs
 F:\StudyCore\StudyCore.Services\obj\Debug\netcoreapp3.1\StudyCore.Services.dll
 F:\StudyCore\StudyCore.Services\obj\Debug\netcoreapp3.1\StudyCore.Services.pdb
+F:\StudyCore\StudyCore.Services\obj\Debug\netcoreapp3.1\StudyCore.Services.csprojAssemblyReference.cache

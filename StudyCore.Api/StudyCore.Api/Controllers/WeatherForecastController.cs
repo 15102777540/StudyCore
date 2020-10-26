@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using log4net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -26,6 +27,7 @@ namespace StudyCore.Api.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            _logger.LogInformation("你好啊");
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {

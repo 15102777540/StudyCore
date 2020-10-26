@@ -1,0 +1,599 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudyCore.Model</name>
+    </assembly>
+    <members>
+        <member name="T:StudyCore.Model.Auth.AppAuthenticationSettings">
+            <summary>
+            JWT授权的配置项
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Auth.AppAuthenticationSettings.AppId">
+            <summary>
+            应用ID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Auth.AppAuthenticationSettings.Secret">
+            <summary>
+            应用密钥(真实项目中可能区分应用,不同的应用对应惟一的密钥)
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.Auth.JwtBearerAuthenticationExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:StudyCore.Model.Auth.JwtBearerAuthenticationExtension.AddJwtBearerAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,StudyCore.Model.Auth.AppAuthenticationSettings)">
+            <summary>
+            注册JWT Bearer认证服务的静态扩展方法
+            </summary>
+            <param name="services"></param>
+            <param name="appSettings">JWT授权的配置项</param>
+        </member>
+        <member name="T:StudyCore.Model.Enums.CommonEnum">
+            <summary>
+            通用枚举类
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.Enums.CommonEnum.IsDeleted">
+            <summary>
+            是否已删
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.IsDeleted.All">
+            <summary>
+            所有
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.IsDeleted.No">
+            <summary>
+            否
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.IsDeleted.Yes">
+            <summary>
+            是
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.Enums.CommonEnum.IsLocked">
+            <summary>
+            是否已被锁定
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.IsLocked.UnLocked">
+            <summary>
+            未锁定
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.IsLocked.Locked">
+            <summary>
+            已锁定
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.Enums.CommonEnum.IsEnabled">
+            <summary>
+            是否可用
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.IsEnabled.No">
+            <summary>
+            否
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.IsEnabled.Yes">
+            <summary>
+            是
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.Enums.CommonEnum.Status">
+            <summary>
+            用户状态
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.Status.All">
+            <summary>
+            未指定
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.Status.Forbidden">
+            <summary>
+            已禁用
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.Status.Normal">
+            <summary>
+            正常
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.Enums.CommonEnum.PermissionType">
+            <summary>
+            权限类型
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.PermissionType.Menu">
+            <summary>
+            菜单
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.PermissionType.Action">
+            <summary>
+            按钮/操作/功能
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.Enums.CommonEnum.YesOrNo">
+            <summary>
+            是否枚举
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.YesOrNo.All">
+            <summary>
+            所有
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.YesOrNo.No">
+            <summary>
+            否
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.Enums.CommonEnum.YesOrNo.Yes">
+            <summary>
+            是
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.Menu">
+            <summary>
+            /// <summary>
+            菜单实体类
+            </summary>
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.Guid">
+            <summary>
+            GUID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.Name">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.Url">
+            <summary>
+            链接地址
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.Alias">
+            <summary>
+            页面别名
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.Icon">
+            <summary>
+            菜单图标(可选)
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.ParentGuid">
+            <summary>
+            父级GUID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.ParentName">
+            <summary>
+            上级菜单名称
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.Level">
+            <summary>
+            菜单层级深度
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.Description">
+            <summary>
+            描述信息
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.Status">
+            <summary>
+            是否可用(0:禁用,1:可用)
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.IsDeleted">
+            <summary>
+            是否已删
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.IsDefaultRouter">
+            <summary>
+            是否为默认路由
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.CreatedOn">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.CreatedByUserGuid">
+            <summary>
+            创建者ID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.CreatedByUserName">
+            <summary>
+            创建者姓名
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.ModifiedOn">
+            <summary>
+            最近修改时间
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.ModifiedByUserGuid">
+            <summary>
+            最近修改者ID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.ModifiedByUserName">
+            <summary>
+            最近修改者姓名
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.Component">
+            <summary>
+            前端组件(.vue)
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.HideInMenu">
+            <summary>
+            在菜单中隐藏
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.NotCache">
+            <summary>
+            不缓存页面
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.BeforeCloseFun">
+            <summary>
+            页面关闭前的回调函数
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Menu.Permissions">
+            <summary>
+            菜单拥有的权限列表
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.Permission">
+            <summary>
+            /// <summary>
+            权限实体类
+            </summary>
+            </summary>
+        </member>
+        <member name="M:StudyCore.Model.Permission.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.Code">
+            <summary>
+            权限编码
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.MenuGuid">
+            <summary>
+            菜单GUID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.Name">
+            <summary>
+            权限名称
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.ActionCode">
+            <summary>
+            权限操作码
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.Icon">
+            <summary>
+            图标(可选)
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.Description">
+            <summary>
+            描述信息
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.IsDeleted">
+            <summary>
+            是否已删
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.Type">
+            <summary>
+            权限类型(0:菜单,1:按钮/操作/功能等)
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.CreatedByUserGuid">
+            <summary>
+            创建者ID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.CreatedOn">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.CreatedByUserName">
+            <summary>
+            创建者姓名
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.ModifiedOn">
+            <summary>
+            最近修改时间
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.ModifiedByUserGuid">
+            <summary>
+            最近修改者ID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.ModifiedByUserName">
+            <summary>
+            最近修改者姓名
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.Menu">
+            <summary>
+            关联的菜单
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Permission.Roles">
+            <summary>
+            权限所属的角色集合
+            </summary>
+        </member>
+        <member name="M:StudyCore.Model.Role.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.IsDeleted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.CreatedOn">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.CreatedByUserGuid">
+            <summary>
+            创建者ID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.CreatedByUserName">
+            <summary>
+            创建者姓名
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.ModifiedOn">
+            <summary>
+            最近修改时间
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.ModifiedByUserGuid">
+            <summary>
+            最近修改者ID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.ModifiedByUserName">
+            <summary>
+            最近修改者姓名
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.IsSuperAdministrator">
+            <summary>
+            是否是超级管理员(超级管理员拥有系统的所有权限)
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.IsBuiltin">
+            <summary>
+            是否是系统内置角色(系统内置角色不允许删除,修改操作)
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.UserRoles">
+            <summary>
+            角色拥有的用户集合
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Role.Permissions">
+            <summary>
+            角色拥有的权限集合
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.RolePermissionMapping">
+            <summary>
+            角色权限关系表
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.RolePermissionMapping.RoleCode">
+            <summary>
+            角色编码
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.RolePermissionMapping.PermissionCode">
+            <summary>
+            权限编码
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.RolePermissionMapping.Role">
+            <summary>
+            角色实体
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.RolePermissionMapping.Permission">
+            <summary>
+            权限实体
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.RolePermissionMapping.CreatedOn">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.User">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.User.Guid">
+            <summary>
+            用户GUID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.User.CreatedOn">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.User.CreatedByUserGuid">
+            <summary>
+            创建者ID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.User.CreatedByUserName">
+            <summary>
+            创建者姓名
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.User.ModifiedOn">
+            <summary>
+            最近修改时间
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.User.ModifiedByUserGuid">
+            <summary>
+            最近修改者ID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.User.ModifiedByUserName">
+            <summary>
+            最近修改者姓名
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.User.Description">
+            <summary>
+            用户描述信息
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.User.UserRoles">
+            <summary>
+            用户的角色集合
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.UserType">
+            <summary>
+            用户类型
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.UserType.SuperAdministrator">
+            <summary>
+            超级管理员
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.UserType.Admin">
+            <summary>
+            管理员
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.UserType.GeneralUser">
+            <summary>
+            一般用户
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.UserStatus">
+            <summary>
+            用户状态
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.UserStatus.All">
+            <summary>
+            未指定
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.UserStatus.Forbidden">
+            <summary>
+            已禁用
+            </summary>
+        </member>
+        <member name="F:StudyCore.Model.UserStatus.Normal">
+            <summary>
+            正常
+            </summary>
+        </member>
+        <member name="T:StudyCore.Model.UserRoleMapping">
+            <summary>
+            用户-角色映射
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.UserRoleMapping.UserGuid">
+            <summary>
+            用户GUID
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.UserRoleMapping.User">
+            <summary>
+            用户实体
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.UserRoleMapping.RoleCode">
+            <summary>
+            角色编码
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.UserRoleMapping.Role">
+            <summary>
+            角色实体
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.UserRoleMapping.CreatedOn">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+    </members>
+</doc>
