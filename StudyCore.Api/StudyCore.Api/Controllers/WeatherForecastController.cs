@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 
 namespace StudyCore.Api.Controllers
 {
+
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase

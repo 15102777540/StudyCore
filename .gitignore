@@ -3,3 +3,8 @@
 ################################################################################
 
 /StudyCore.Api/StudyCore.Api/obj
+/StudyCore.IRepository/obj
+/StudyCore.IServices/obj
+/StudyCore.Model/obj
+/StudyCore.Repository/obj
+/StudyCore.Services/obj
