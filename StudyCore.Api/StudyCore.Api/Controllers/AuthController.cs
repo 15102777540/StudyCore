@@ -15,7 +15,7 @@ using static StudyCore.Model.Enums.CommonEnum;
 
 namespace StudyCore.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class AuthController : ControllerBase
     {
