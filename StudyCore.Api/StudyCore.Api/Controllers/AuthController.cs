@@ -57,16 +57,16 @@ namespace StudyCore.Api.Controllers
                     response.SetFailed("密码不正确");
                     return Ok(response);
                 }
-                //if (user.IsLocked == IsLocked.Locked)
-                //{
-                //    response.SetFailed("账号已被锁定");
-                //    return Ok(response);
-                //}
-                //if (user.Status == UserStatus.Forbidden)
-                //{
-                //    response.SetFailed("账号已被禁用");
-                //    return Ok(response);
-                //}
+                if (user.IsLocked == IsLocked.Locked)
+                {
+                    response.SetFailed("账号已被锁定");
+                    return Ok(response);
+                }
+                if (user.Status == UserStatus.Forbidden)
+                {
+                    response.SetFailed("账号已被禁用");
+                    return Ok(response);
+                }
             }
             var claimsIdentity = new ClaimsIdentity(new Claim[]
                 {
