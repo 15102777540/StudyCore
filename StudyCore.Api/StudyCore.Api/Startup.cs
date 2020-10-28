@@ -18,6 +18,7 @@ using Microsoft.Extensions.PlatformAbstractions;
 using Microsoft.OpenApi.Models;
 using StudyCore.Model.Auth;
 using StudyCore.Repository;
+using Swashbuckle.AspNetCore.Filters;
 
 namespace StudyCore.Api
 {
@@ -64,6 +65,22 @@ namespace StudyCore.Api
                 var xmlPath = Path.Combine(basePath, "StudyCore.Model.xml"); 
                 //第二个参数为true的话则控制器上的注释也会显示(默认false)
                 c.IncludeXmlComments(xmlPath, true);
+
+                // 开启加权小锁
+                c.OperationFilter<AddResponseHeadersFilter>();
+                c.OperationFilter<AppendAuthorizeToSummaryOperationFilter>();
+
+                // 在header中添加token，传递到后台
+                c.OperationFilter<SecurityRequirementsOperationFilter>();
+
+                // Jwt Bearer 认证，必须是 oauth2
+                c.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+                {
+                    Description = "JWT授权(数据将在请求头中进行传输) 直接在下框中输入Bearer {token}（注意两者之间是一个空格）\"",
+                    Name = "Authorization",//jwt默认的参数名称
+                    In = ParameterLocation.Header,//jwt默认存放Authorization信息的位置(请求头中)
+                    Type = SecuritySchemeType.ApiKey
+                });
             });
 
             // 注入日志
@@ -84,7 +101,7 @@ namespace StudyCore.Api
 
             app.UseStaticFiles();
             app.UseFileServer();
-
+            app.UseAuthentication();
             app.UseHttpsRedirection();
 
             app.UseRouting();

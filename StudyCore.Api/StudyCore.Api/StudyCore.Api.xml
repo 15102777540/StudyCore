@@ -4,5 +4,31 @@
         <name>StudyCore.Api</name>
     </assembly>
     <members>
+        <member name="M:StudyCore.Api.Controllers.AccountController.#ctor(StudyCore.Repository.StudyDbContext)">
+            <summary>
+            
+            </summary>
+            <param name="dbContext"></param>
+        </member>
+        <member name="M:StudyCore.Api.Controllers.AccountController.Profile">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StudyCore.Api.Controllers.AuthController.#ctor(Microsoft.Extensions.Options.IOptions{StudyCore.Model.Auth.AppAuthenticationSettings},StudyCore.Repository.StudyDbContext)">
+            <summary>
+            
+            </summary>
+            <param name="appSettings"></param>
+        </member>
+        <member name="M:StudyCore.Api.Controllers.AuthController.Auth(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

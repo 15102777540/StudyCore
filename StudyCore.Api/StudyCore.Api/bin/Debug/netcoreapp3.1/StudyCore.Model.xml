@@ -595,5 +595,89 @@
             创建时间
             </summary>
         </member>
+        <member name="T:StudyCore.Model.Response.ResponseModel">
+            <summary>
+            请求响应实体
+            </summary>
+        </member>
+        <member name="M:StudyCore.Model.Response.ResponseModel.#ctor">
+            <summary>
+            请求响应实体类
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Response.ResponseModel.Code">
+            <summary>
+            响应代码
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Response.ResponseModel.Message">
+            <summary>
+            响应消息内容
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Response.ResponseModel.Data">
+            <summary>
+            返回的响应数据
+            </summary>
+        </member>
+        <member name="M:StudyCore.Model.Response.ResponseModel.SetSuccess(System.String)">
+            <summary>
+            设置响应状态为成功
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:StudyCore.Model.Response.ResponseModel.SetFailed(System.String)">
+            <summary>
+            设置响应状态为失败
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:StudyCore.Model.Response.ResponseModel.SetIsTrial(System.String)">
+            <summary>
+            设置响应状态为体验版(返回失败结果)
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:StudyCore.Model.Response.ResponseModel.SetError(System.String)">
+            <summary>
+            设置响应状态为错误
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:StudyCore.Model.Response.ResponseModel.SetNotFound(System.String)">
+            <summary>
+            设置响应状态为未知资源
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:StudyCore.Model.Response.ResponseModel.SetNoPermission(System.String)">
+            <summary>
+            设置响应状态为无权限
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:StudyCore.Model.Response.ResponseModel.SetData(System.Object)">
+            <summary>
+            设置响应数据
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="T:StudyCore.Model.Response.ResponseResultModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:StudyCore.Model.Response.ResponseResultModel.TotalCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:StudyCore.Model.Response.ResponseResultModel.SetData(System.Object,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+            <param name="totalCount"></param>
+        </member>
     </members>
 </doc>

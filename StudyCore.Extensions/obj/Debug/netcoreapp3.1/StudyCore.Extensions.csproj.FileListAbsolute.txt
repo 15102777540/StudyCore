@@ -1,0 +1,13 @@
+F:\StudyCore\StudyCore.Extensions\bin\Debug\netcoreapp3.1\StudyCore.Extensions.deps.json
+F:\StudyCore\StudyCore.Extensions\bin\Debug\netcoreapp3.1\StudyCore.Extensions.dll
+F:\StudyCore\StudyCore.Extensions\bin\Debug\netcoreapp3.1\StudyCore.Extensions.pdb
+F:\StudyCore\StudyCore.Extensions\bin\Debug\netcoreapp3.1\StudyCore.Model.dll
+F:\StudyCore\StudyCore.Extensions\bin\Debug\netcoreapp3.1\StudyCore.Model.pdb
+F:\StudyCore\StudyCore.Extensions\bin\Debug\netcoreapp3.1\StudyCore.Model.xml
+F:\StudyCore\StudyCore.Extensions\obj\Debug\netcoreapp3.1\StudyCore.Extensions.csprojAssemblyReference.cache
+F:\StudyCore\StudyCore.Extensions\obj\Debug\netcoreapp3.1\StudyCore.Extensions.csproj.CoreCompileInputs.cache
+F:\StudyCore\StudyCore.Extensions\obj\Debug\netcoreapp3.1\StudyCore.Extensions.AssemblyInfoInputs.cache
+F:\StudyCore\StudyCore.Extensions\obj\Debug\netcoreapp3.1\StudyCore.Extensions.AssemblyInfo.cs
+F:\StudyCore\StudyCore.Extensions\obj\Debug\netcoreapp3.1\StudyCore.Extensions.csproj.CopyComplete
+F:\StudyCore\StudyCore.Extensions\obj\Debug\netcoreapp3.1\StudyCore.Extensions.dll
+F:\StudyCore\StudyCore.Extensions\obj\Debug\netcoreapp3.1\StudyCore.Extensions.pdb

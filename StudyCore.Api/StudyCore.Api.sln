@@ -5,15 +5,17 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudyCore.Api", "StudyCore.Api\StudyCore.Api.csproj", "{BE1410F5-E2EE-4059-B105-05660AF59537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyCore.Model", "..\StudyCore.Model\StudyCore.Model.csproj", "{2BB9E10E-F777-4A9E-AFA9-35E4320452BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudyCore.Model", "..\StudyCore.Model\StudyCore.Model.csproj", "{2BB9E10E-F777-4A9E-AFA9-35E4320452BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyCore.Repository", "..\StudyCore.Repository\StudyCore.Repository.csproj", "{718F576A-C3B3-42C4-9F7D-DF6FCB5E3D80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudyCore.Repository", "..\StudyCore.Repository\StudyCore.Repository.csproj", "{718F576A-C3B3-42C4-9F7D-DF6FCB5E3D80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyCore.IRepository", "..\StudyCore.IRepository\StudyCore.IRepository.csproj", "{6B01C64A-3FD2-42CB-A29E-8B8E4400CDC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudyCore.IRepository", "..\StudyCore.IRepository\StudyCore.IRepository.csproj", "{6B01C64A-3FD2-42CB-A29E-8B8E4400CDC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyCore.IServices", "..\StudyCore.IServices\StudyCore.IServices.csproj", "{4441FB77-CC6D-42A1-A3E5-A95C72D936B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudyCore.IServices", "..\StudyCore.IServices\StudyCore.IServices.csproj", "{4441FB77-CC6D-42A1-A3E5-A95C72D936B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyCore.Services", "..\StudyCore.Services\StudyCore.Services.csproj", "{40ADCB5D-89C4-4F67-BCDF-CC49FC8651D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudyCore.Services", "..\StudyCore.Services\StudyCore.Services.csproj", "{40ADCB5D-89C4-4F67-BCDF-CC49FC8651D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyCore.Extensions", "..\StudyCore.Extensions\StudyCore.Extensions.csproj", "{2B0A230A-9C49-481A-9415-04674BEDC052}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{40ADCB5D-89C4-4F67-BCDF-CC49FC8651D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40ADCB5D-89C4-4F67-BCDF-CC49FC8651D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40ADCB5D-89C4-4F67-BCDF-CC49FC8651D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B0A230A-9C49-481A-9415-04674BEDC052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0A230A-9C49-481A-9415-04674BEDC052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0A230A-9C49-481A-9415-04674BEDC052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0A230A-9C49-481A-9415-04674BEDC052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

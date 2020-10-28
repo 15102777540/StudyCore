@@ -1,0 +1,24 @@
+2020-10-28 20:11:38,521 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Now listening on: https://localhost:5001
+2020-10-28 20:11:38,541 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Now listening on: http://localhost:5000
+2020-10-28 20:11:38,545 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-10-28 20:11:38,549 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-10-28 20:11:38,553 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: F:\StudyCore\StudyCore.Api\StudyCore.Api
+2020-10-28 20:11:39,938 [9] INFO  StudyCore.Api.Controllers.WeatherForecastController [(null)]  - 你好啊
+2020-10-28 20:24:49,460 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Now listening on: https://localhost:5001
+2020-10-28 20:24:49,472 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Now listening on: http://localhost:5000
+2020-10-28 20:24:49,474 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-10-28 20:24:49,477 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-10-28 20:24:49,480 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: F:\StudyCore\StudyCore.Api\StudyCore.Api
+2020-10-28 20:24:50,485 [4] INFO  StudyCore.Api.Controllers.WeatherForecastController [(null)]  - 你好啊
+2020-10-28 20:27:54,455 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Now listening on: https://localhost:5001
+2020-10-28 20:27:54,471 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Now listening on: http://localhost:5000
+2020-10-28 20:27:54,473 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-10-28 20:27:54,475 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-10-28 20:27:54,477 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: F:\StudyCore\StudyCore.Api\StudyCore.Api
+2020-10-28 20:27:55,542 [9] INFO  StudyCore.Api.Controllers.WeatherForecastController [(null)]  - 你好啊
+2020-10-28 20:28:51,028 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Now listening on: https://localhost:5001
+2020-10-28 20:28:51,046 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Now listening on: http://localhost:5000
+2020-10-28 20:28:51,049 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-10-28 20:28:51,052 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-10-28 20:28:51,055 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: F:\StudyCore\StudyCore.Api\StudyCore.Api
+2020-10-28 20:28:52,385 [10] INFO  StudyCore.Api.Controllers.WeatherForecastController [(null)]  - 你好啊
